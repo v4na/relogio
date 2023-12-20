@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Afacad:ital@1&family=Lato:ital,wght@0,300;1,300&family=Love+Ya+Like+A+Sister&display=swap');
+
+ * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+ }
+
+ body{
+    height: 100vh;
+    background: linear-gradient(100deg, #f3eff1 , #ebbff8 , #fdfdfd);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+
+
+
+ .relógio{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 550px;
+    background-color: #e7c2ff;
+    border-radius: 10px;
+    font-weight: 600;
+    box-shadow: 1px 1px 5px rgba(193, 95, 218, 0.5);
+
+ }
+
+ .relógio div {
+    height: 170px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    background-color: rgb(252, 231, 246);
+    border-radius: 1rem;
+
+ }
+
+ .relogio span {
+   font-size: 100px;
+}
+
+.relógio span.tempo {
+   font-size: 15px;
+}
